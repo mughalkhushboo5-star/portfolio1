@@ -1,0 +1,511 @@
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Khushboo Mughal | AI-Driven Content Creator & Influencer Strategist</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-dim": "#00deec",
+                        "on-secondary": "#440900",
+                        "tertiary-fixed-dim": "#6ded00",
+                        "primary-fixed": "#00eefc",
+                        "error": "#ff716c",
+                        "surface-bright": "#1f2b49",
+                        "secondary-fixed-dim": "#ffb09d",
+                        "surface": "#060e20",
+                        "on-primary-container": "#005359",
+                        "outline": "#6d758c",
+                        "primary-container": "#00eefc",
+                        "tertiary-container": "#75fd00",
+                        "surface-container-high": "#141f38",
+                        "surface-container-lowest": "#000000",
+                        "inverse-on-surface": "#4d556b",
+                        "on-background": "#dee5ff",
+                        "primary": "#00F0FF",
+                        "on-secondary-fixed-variant": "#9b2200",
+                        "secondary-container": "#b42800",
+                        "secondary-fixed": "#ffc4b6",
+                        "surface-container-low": "#091328",
+                        "tertiary-dim": "#6ded00",
+                        "background": "#060e20",
+                        "surface-variant": "#192540",
+                        "surface-container": "#0f1930",
+                        "tertiary": "#c2ff99",
+                        "on-error-container": "#ffa8a3",
+                        "on-tertiary-fixed": "#1c4700",
+                        "primary-fixed-dim": "#00deec",
+                        "on-primary-fixed-variant": "#005e64",
+                        "secondary": "#ff7350",
+                        "on-surface-variant": "#a3aac4",
+                        "on-primary": "#005d63",
+                        "outline-variant": "#40485d",
+                        "on-primary-fixed": "#003f43",
+                        "on-surface": "#dee5ff",
+                        "tertiary-fixed": "#75fd00",
+                        "surface-dim": "#060e20",
+                        "surface-container-highest": "#192540",
+                        "on-secondary-container": "#fff6f4",
+                        "inverse-surface": "#faf8ff",
+                        "surface-tint": "#8ff5ff",
+                        "secondary-dim": "#dc3300",
+                        "on-error": "#490006",
+                        "on-tertiary": "#2b6500",
+                        "on-secondary-fixed": "#681300",
+                        "error-dim": "#d7383b",
+                        "on-tertiary-fixed-variant": "#2b6600",
+                        "on-tertiary-container": "#265c00",
+                        "error-container": "#9f0519",
+                        "inverse-primary": "#006a71"
+                    },
+                    fontFamily: {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Manrope"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-card {
+            backdrop-filter: blur(12px);
+            background: rgba(15, 25, 48, 0.7);
+        }
+        /* Enhanced Card Hover */
+        .partnership-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .partnership-card:hover {
+            border-color: #00F0FF;
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px -10px rgba(0, 240, 255, 0.25);
+        }
+        
+        /* New Custom Animations */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-up {
+            animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+        }
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-30px); }
+        }
+        .animate-float {
+            animation: float 8s ease-in-out infinite;
+        }
+        .animate-float-delayed {
+            animation: float 8s ease-in-out 4s infinite;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary selection:text-on-primary">
+<header class="fixed top-0 left-0 right-0 z-50 bg-[#060e20]/80 backdrop-blur-md border-none">
+<nav class="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-bold text-primary font-headline uppercase tracking-tighter hover:scale-105 transition-transform duration-300 cursor-pointer">KM Portfolio</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-slate-400 hover:text-primary transition-colors font-headline uppercase tracking-tighter text-sm" href="#partnerships">Partnerships</a>
+<a class="text-slate-400 hover:text-primary transition-colors font-headline uppercase tracking-tighter text-sm" href="#experience">Experience</a>
+<a class="text-slate-400 hover:text-primary transition-colors font-headline uppercase tracking-tighter text-sm" href="#skills">Skills</a>
+<a class="text-slate-400 hover:text-primary transition-colors font-headline uppercase tracking-tighter text-sm" href="#about">About</a>
+<a class="text-slate-400 hover:text-primary transition-colors font-headline uppercase tracking-tighter text-sm" href="#contact">Contact</a>
+</div>
+            </a>
+</nav>
+</header>
+<main class="pt-24">
+<section class="relative min-h-[90vh] flex items-center px-6 overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+<div class="absolute top-[-10%] right-[-5%] w-[600px] h-[600px] bg-primary rounded-full blur-[120px] animate-float"></div>
+<div class="absolute bottom-[-10%] left-[-5%] w-[400px] h-[400px] bg-secondary rounded-full blur-[100px] animate-float-delayed"></div>
+</div>
+<div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+<div class="lg:col-span-8 animate-fade-up">
+<h1 class="font-headline text-5xl md:text-8xl font-bold leading-[0.9] tracking-tighter text-on-surface mb-8">
+                        SCALING <span class="text-primary italic">CREATOR EMPIRES</span><br/>
+                        WITH STRATEGY,<br/>
+                        DATA & AI.
+                    </h1>
+<p class="max-w-2xl text-xl text-on-surface-variant font-body mb-10 leading-relaxed">
+                        Khushboo Mughal | AI-Driven Content Creator & Influencer Strategist.
+                    </p>
+<div class="flex flex-wrap gap-4">
+</div>
+</div>
+<div class="lg:col-span-4 relative animate-fade-up delay-200">
+<div class="aspect-[4/5] rounded-xl overflow-hidden glass-card p-2 group">
+<img alt="KM Typographic Logo" class="w-full h-full rounded-lg transition-all duration-700 object-contain group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCF3BEmlWnTV3gqFlkFp8olfhMTlO8vY8eUCraO1W3mYBZ2P3jje9OOCydc-2j174kpSBAf9OX5cpR6ZrNaonA90sggUrTIws_RPGiEKqgpIEsyWgWCPga6X44QwOdvsPzrBpv16jyDgti7E6R7nj3HFldMTK1143WXWyZzmuTvM6WwI_VYTN4OWXI7TWjkDO7WAeynOBrw1KbhjwumBj2jZnDNhdzp3RFj_KykzyDrYV5JqxPUcYfpISIqQULutZct8pOmmQyBrv0"/>
+</div>
+<div class="absolute -bottom-6 -left-6 glass-card p-6 rounded-xl border border-white/5 shadow-2xl animate-float-delayed hover:border-primary/50 transition-colors cursor-default">
+<div class="text-primary font-headline text-4xl font-bold">5M+</div>
+<div class="text-on-surface-variant font-label text-xs uppercase tracking-widest">Global Views Scaled</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 right-0 font-headline text-[20vw] font-black text-on-surface/5 select-none leading-none translate-y-1/4">
+                KHUSHBO
+            </div>
+</section>
+<section class="py-32 px-6 bg-surface-container-low relative overflow-hidden" id="about">
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="animate-fade-up">
+<div class="font-label text-primary uppercase tracking-[0.3em] mb-4 text-sm font-bold">The Visionary</div>
+<h2 class="font-headline text-4xl md:text-6xl font-bold text-on-surface mb-8">Data-Driven Creativity.</h2>
+<div class="space-y-6 text-on-surface-variant text-lg leading-relaxed">
+<p>
+                                I’m a results-driven Digital Strategist and Content Creator with 3+ years of experience building and scaling creator brands into high-growth, million-view platforms. I bring end-to-end expertise in channel management—from content planning and production to audience development and performance optimization. I specialize in forming high-value revenue partnerships, identifying and capitalizing on viral trends at an early stage, and consistently delivering content that drives both engagement and monetization.
+
+By leveraging data-driven insights, advanced AI-powered content creation (including video and image generation), and compelling, conversion-focused storytelling, I create content ecosystems that capture attention and retain audiences. My work transforms platforms like Snapchat, YouTube, and Facebook into thriving digital communities and sustainable revenue engines, helping brands maximize reach, engagement, and long-term growth.
+                            </p>
+</div>
+<div class="mt-12 flex gap-12">
+<div class="hover:-translate-y-2 transition-transform duration-300">
+<div class="text-3xl font-headline font-bold text-tertiary">3+</div>
+<div class="text-sm font-label uppercase tracking-wider text-slate-500">Years Experience</div>
+</div>
+<div class="hover:-translate-y-2 transition-transform duration-300">
+<div class="text-3xl font-headline font-bold text-tertiary">30M+</div>
+<div class="text-sm font-label uppercase tracking-wider text-slate-500">Impressions Managed</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4 animate-fade-up delay-200">
+<div class="h-64 bg-surface-container rounded-xl overflow-hidden relative group">
+<img alt="Work Environment" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNgxK9PtWX06b7Ho79BAl1CPM3Z4RtIGovNgDO-Yg7w7bOT_p6B4qgcyF3oYFFMpfKtk3xbPfG7mlQagKXF0qBDQ6NW0PbI1nHkjzeeGwcyJgjCgfaVoHW9tMjfMyaUzMxqKUhXzJ0F4H8GGO5pGXaA3XAZVjpH3Sr-_2Gj4kargTGVkV9FYUiIicQUb7oS-EgR2iydKQ0ZGARG76j3sLQgaZn-r34381zRyJz8e_M5lbNu4dlFABuqHrdvNXQyf9fYcu9p9fAOX8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+</div>
+<div class="h-64 bg-surface-container rounded-xl mt-12 overflow-hidden relative group">
+<img alt="Social Platforms" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOsPS2lqe8MTJf8NCdVo0CHxZhWdgr_PMBJMZ0P5_VbdDg84aSOcLR4RUofoYIeFFxIZ_1oV7fhgbjtvZyZfG1C72X7meRjUFK59Cr7loLcCMFDaPfe2bZFvBizU_aD9kKMAp0Hi64H-lfmLg7tOOY0FADcZhUMCszbLTRgJeWqvjoUBygI3f-ABWbfZDU3Bj0Chs8NGmmQ6ccu9b_c-w0dyCx4tYQZY3fFh6kAXDzwoQWcAfAQ8Xd9NpYhYkcOVL-DipGtFlxPsA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface to-transparent"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 px-6" id="partnerships">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-20 animate-fade-up">
+<div class="font-label text-primary uppercase tracking-[0.3em] mb-4 text-sm font-bold">Monetization & Growth</div>
+<h2 class="font-headline text-4xl md:text-6xl font-bold text-on-surface mb-6">Revenue-Sharing Deals & Channel Management</h2>
+<p class="max-w-3xl mx-auto text-on-surface-variant">Providing end-to-end content services, including viral content research, video editing, thumbnail design, and page uploading. I have successfully secured revenue-sharing deals with influencers and independently manage the entire content lifecycle—from research and content creation to uploading, performance analysis, and AI-powered content integration.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="space-y-6 animate-fade-up">
+<h3 class="font-headline text-xl font-bold text-primary uppercase tracking-widest text-center border-b border-primary/20 pb-4">Snapchat Creators</h3>
+<div class="space-y-4">
+<a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://www.snapchat.com/add/jackfnzy" target="_blank">
+<div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+<img alt="Jackfnzy" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/hxFBGxSL/Jack-FNZY.jpg"/>
+</div>
+<div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Jackfnzy</div>
+</a>
+<a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://www.snapchat.com/add/bodiebae" target="_blank">
+<div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+<img alt="Bodiebae" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/PGMc5mf4/london-barkar.jpg"/>
+</div>
+<div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Bodiebae</div>
+</a>
+<a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://www.snapchat.com/add/taj_tyler" target="_blank">
+<div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+<img alt="Taj Tyler" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/Vccxdx3G/taj-tyler.jpg"/>
+</div>
+<div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Taj Tyler</div>
+</a>
+</div>
+</div>
+<div class="space-y-6 animate-fade-up delay-100">
+  <h3 class="font-headline text-xl font-bold text-primary uppercase tracking-widest text-center border-b border-primary/20 pb-4">Snapchat Shows</h3>
+  <div class="space-y-4">
+    <a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://snapchat.com/t/k8qEKo0L" target="_blank">
+      <div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden relative">
+        <img class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/PzM3jPTX/future-is-here.jpg" alt="Future is here"/>
+      </div>
+      <div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Future is here</div>
+    </a>
+    <a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://www.snapchat.com/p/f09b8b1b-4ed4-495e-b9c4-1847c258ceb1/63141933993984" target="_blank">
+      <div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+        <img alt="Viral Page 1" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/TBLbpqjD/look-them-up.jpg"/>
+        <div class="w-full h-full flex items-center justify-center bg-surface-variant text-primary text-2xl font-bold group-hover:bg-primary/20 transition-colors">VS2</div>
+      </div>
+      <div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Look them up</div>
+    </a>
+    <a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://www.snapchat.com/p/bec46fb5-7cf8-4b22-a34d-c03150d93d2c/3137376147658752" target="_blank">
+      <div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+        <img alt="Viral Page 1" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/pj0kbsgg/Gemini-Generated-Image-w4ypkiw4ypkiw4yp.png">
+        
+        <div class="w-full h-full flex items-center justify-center bg-surface-variant text-primary text-2xl font-bold group-hover:bg-primary/20 transition-colors">VS2</div>
+      </div>
+      <div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Surprising People</div>
+    </a>
+  </div>
+</div>
+<div class="space-y-6 animate-fade-up delay-200">
+  <h3 class="font-headline text-xl font-bold text-primary uppercase tracking-widest text-center border-b border-primary/20 pb-4">YouTube Partners</h3>
+  <div class="space-y-4">
+    <a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://youtube.com/@paulabillyblevins?si=uWecezm1BMtKtY6W" target="_blank">
+      <div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+        <img alt="Viral Page 1" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/xS66qgpD/Gemini-Generated-Image-k50g1vk50g1vk50g.png"/>
+        <div class="w-full h-full flex items-center justify-center bg-surface-variant text-red-500 text-2xl font-bold group-hover:bg-red-500/20 transition-colors">PB</div>
+      </div>
+      <div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Paula Billy Blevins</div>
+    </a>
+    <a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://youtube.com/@jackfnzy?si=_ccw0sDoqdgWjlBz" target="_blank">
+      <div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+        <img alt="Viral Page 1" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/hxFBGxSL/Jack-FNZY.jpg"/>
+        <div class="w-full h-full flex items-center justify-center bg-surface-variant text-red-500 text-2xl font-bold group-hover:bg-red-500/20 transition-colors">JF</div>
+      </div>
+      <div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">JackFNZY</div>
+    </a>
+    <a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://youtube.com/@auntiegigi-i2l?si=xYo4hJYVReVnL7pc" target="_blank">
+      <div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+        <img alt="Viral Page 1" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/zHLHy8Jn/Gemini-Generated-Image-7duo357duo357duo.png"/>
+        <div class="w-full h-full flex items-center justify-center bg-surface-variant text-red-500 text-2xl font-bold group-hover:bg-red-500/20 transition-colors">AG</div>
+      </div>
+      <div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">AuntieGigi</div>
+    </a>
+  </div>
+</div>
+<div class="space-y-6 animate-fade-up delay-300">
+<h3 class="font-headline text-xl font-bold text-primary uppercase tracking-widest text-center border-b border-primary/20 pb-4">Facebook Pages</h3>
+<div class="space-y-4">
+<a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://www.facebook.com/profile.php?id=100095604275253" target="_blank">
+<div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+<img alt="Viral Page 1" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/twxcsTbK/cajunfootrub-image.webp"/>
+</div>
+<div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Cajunfootrub</div>
+</a>
+<a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://www.facebook.com/profile.php?id=61575149999558" target="_blank">
+<div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+<img alt="Viral Page 2" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/yc8bQfH9/large-1698853756-a0b652f416e9b8487649a66fe5867c01.jpg"/>
+</div>
+<div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">Landon Barker</div>
+</a>
+<a class="block glass-card p-4 rounded-xl border border-white/5 partnership-card group" href="https://www.facebook.com/charilies546743/" target="_blank">
+<div class="aspect-square bg-surface-container rounded-lg mb-3 overflow-hidden">
+<img alt="Charlie's Page" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" src="https://i.ibb.co/LzhZRLyf/Gemini-Generated-Image-1v9s4s1v9s4s1v9s-1.png"/>
+</div>
+<div class="text-center font-headline font-bold text-sm group-hover:text-primary transition-colors">The Charlie's</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 px-6 bg-surface-container" id="skills">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-20 animate-fade-up">
+<div class="font-label text-tertiary uppercase tracking-[0.3em] mb-4 text-sm font-bold">Tech Stack</div>
+<h2 class="font-headline text-4xl md:text-6xl font-bold text-on-surface">The Toolkit.</h2>
+</div>
+<div class="space-y-24">
+<div class="animate-fade-up delay-100">
+<h3 class="font-headline text-xl font-bold text-primary mb-10 flex items-center gap-4">
+<span class="w-8 h-[1px] bg-primary"></span>
+                            Next-Gen AI Content Creation
+                        </h3>
+<div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(0,240,255,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:scale-125 transition-transform duration-300">terminal</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">AI Prompt Engineering</span>
+</div>
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(0,240,255,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:scale-125 transition-transform duration-300">palette</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">AI Image Gen</span>
+</div>
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(0,240,255,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:scale-125 transition-transform duration-300">movie</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">AI Video Gen</span>
+</div>
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(0,240,255,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:scale-125 transition-transform duration-300">smart_toy</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">ChatGPT</span>
+</div>
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(0,240,255,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-primary group-hover:scale-125 transition-transform duration-300">auto_awesome</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">Jasper AI</span>
+</div>
+</div>
+</div>
+<div class="animate-fade-up delay-200">
+<h3 class="font-headline text-xl font-bold text-secondary mb-10 flex items-center gap-4">
+<span class="w-8 h-[1px] bg-secondary"></span>
+                            Strategic Creator Management
+                        </h3>
+<div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(255,115,80,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-secondary group-hover:scale-125 transition-transform duration-300">search_insights</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">Content Research</span>
+</div>
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(255,115,80,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-secondary group-hover:scale-125 transition-transform duration-300">movie_edit</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">Video Editing</span>
+</div>
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(255,115,80,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-secondary group-hover:scale-125 transition-transform duration-300">branding_watermark</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">Thumbnail Design</span>
+</div>
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(255,115,80,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-secondary group-hover:scale-125 transition-transform duration-300">edit_note</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">SEO Writing</span>
+</div>
+<div class="p-6 bg-surface flex flex-col items-center justify-center gap-4 rounded-xl hover:bg-surface-bright hover:-translate-y-2 hover:shadow-[0_10px_20px_rgba(255,115,80,0.1)] transition-all duration-300 group cursor-default">
+<span class="material-symbols-outlined text-4xl text-secondary group-hover:scale-125 transition-transform duration-300">analytics</span>
+<span class="font-label text-xs font-bold uppercase tracking-widest text-center">Analytics</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 px-6" id="experience">
+<div class="max-w-7xl mx-auto">
+<div class="flex justify-between items-end mb-20 animate-fade-up">
+<div>
+<div class="font-label text-secondary uppercase tracking-[0.3em] mb-4 text-sm font-bold">Track Record</div>
+<h2 class="font-headline text-4xl md:text-6xl font-bold text-on-surface">Measured Impact.</h2>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="glass-card p-8 rounded-2xl border border-white/5 flex flex-col hover:border-primary/50 hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(0,240,255,0.1)] transition-all duration-500 animate-fade-up">
+<div class="mb-8">
+<div class="text-primary font-headline text-xl font-bold mb-1">On Scope Media</div>
+<div class="text-slate-500 font-label text-xs uppercase tracking-widest">Assistant Manager & Researcher</div>
+</div>
+<div class="flex-grow space-y-4">
+<p class="text-on-surface-variant leading-relaxed">
+                                Increased audience engagement, boosted followers growth, closed 50+ influencer partnerships, and served as an Assistant Manager.
+                            </p>
+</div>
+</div>
+<div class="glass-card p-8 rounded-2xl border border-white/5 flex flex-col hover:border-secondary/50 hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(255,115,80,0.1)] transition-all duration-500 animate-fade-up delay-100">
+<div class="mb-8">
+<div class="text-secondary font-headline text-xl font-bold mb-1">Altisnet Global</div>
+<div class="text-slate-500 font-label text-xs uppercase tracking-widest">Social Content Researcher</div>
+</div>
+<div class="flex-grow space-y-4">
+<p class="text-on-surface-variant leading-relaxed">
+                                Increased average content reach while improving shareability and saves. Worked as a Content Researcher, managing Facebook influencer pages and leveraging UGC strategies to significantly enhance page performance and drive follower growth.
+                            </p>
+</div>
+</div>
+<div class="glass-card p-8 rounded-2xl border border-white/5 flex flex-col hover:border-tertiary/50 hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(194,255,153,0.1)] transition-all duration-500 animate-fade-up delay-200">
+<div class="mb-8">
+<div class="text-tertiary font-headline text-xl font-bold mb-1">Time's Academy</div>
+<div class="text-slate-500 font-label text-xs uppercase tracking-widest">Career Counselor Intern</div>
+</div>
+<div class="flex-grow space-y-4">
+<p class="text-on-surface-variant leading-relaxed">
+                                Gained hands-on experience during my internship by managing financial records, conducting career counselling sessions, and developing strong skills in researching and implementing UGC strategies.
+                            </p>
+</div>
+</div>
+<div class="glass-card p-8 rounded-2xl border border-white/5 flex flex-col hover:border-primary/50 hover:-translate-y-2 hover:shadow-[0_15px_30px_rgba(0,240,255,0.1)] transition-all duration-500 animate-fade-up delay-300">
+<div class="mb-8">
+<div class="text-primary font-headline text-xl font-bold mb-1">Leonex Media</div>
+<div class="text-slate-500 font-label text-xs uppercase tracking-widest">Operational Manager</div>
+</div>
+<div class="flex-grow space-y-4">
+<p class="text-on-surface-variant leading-relaxed">
+                                Currently serving as an Operational Manager at Leonex Media, where I train employees in page coordination and creation, oversee daily office operations, and manage financial activities. I am also responsible for handling a wide range of operational tasks to ensure smooth and efficient business processes.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 px-6" id="contact">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-20">
+<div class="lg:col-span-5 animate-fade-up">
+<div class="font-label text-primary uppercase tracking-[0.3em] mb-4 text-sm font-bold">Foundation</div>
+<h2 class="font-headline text-4xl font-bold mb-8">Academic Roots.</h2>
+<div class="glass-card p-8 rounded-2xl border-l-4 border-primary mb-16 hover:bg-surface-variant transition-colors duration-300">
+<div class="text-xl font-headline font-bold text-on-surface">4-Year Bachelor's in Gender Studies / Gender Behavior</div>
+<div class="mt-2 text-primary">University of Sindh, Pakistan</div>
+<p class="mt-4 text-sm text-on-surface-variant leading-relaxed">
+                                Understanding human behavior and social structures provides the psychological foundation for my viral content strategies.
+                            </p>
+</div>
+</div>
+<div class="lg:col-span-7 flex flex-col justify-center animate-fade-up delay-100">
+<h3 class="font-headline text-3xl font-bold mb-8">Get In Touch.</h3>
+<div class="space-y-8">
+<a href="mailto:mughalkhushboo5@gmail.com" class="flex items-center gap-6 group hover:bg-surface-container p-4 rounded-xl transition-colors">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined text-3xl">mail</span>
+</div>
+<div>
+<div class="text-xs font-label uppercase text-slate-500 tracking-widest">Email Me</div>
+<div class="font-headline text-xl font-bold group-hover:text-secondary transition-colors">mughalkhushboo5@gmail.com</div>
+</div>
+</a>
+<div class="flex items-center gap-6 p-4 rounded-xl">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">call</span>
+</div>
+<div>
+<div class="text-xs font-label uppercase text-slate-500 tracking-widest">Call Me</div>
+<div class="font-headline text-xl font-bold">+92 317 2721838</div>
+</div>
+</div>
+<div class="flex items-center gap-6 p-4 rounded-xl">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-3xl">location_on</span>
+</div>
+<div>
+<div class="text-xs font-label uppercase text-slate-500 tracking-widest">Location</div>
+<div class="font-headline text-xl font-bold">Pakistan</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="w-full py-12 px-8 flex flex-col md:flex-row justify-between items-center gap-6 tonal-shift bg-[#0b1426] relative z-20">
+<div class="text-lg font-headline font-bold text-primary">KM Portfolio</div>
+<div class="text-slate-500 font-label text-sm tracking-wide">© 2026 Khushboo Mughal. All rights reserved.</div>
+<div class="flex flex-col md:flex-row gap-4 md:gap-8 items-center">
+<a class="text-slate-500 hover:text-primary transition-colors font-label text-sm tracking-wide" href="mailto:mughalkhushboo5@gmail.com">mughalkhushboo5@gmail.com</a>
+<span class="text-slate-500 font-label text-sm tracking-wide">+92 317 2721838</span>
+<span class="text-slate-500 font-label text-sm tracking-wide">Pakistan</span>
+</div>
+</footer>
+<nav class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-[#0b1426]/90 backdrop-blur-md flex justify-around items-center py-4 rounded-t-3xl border-t border-white/5 shadow-[0_-8px_24px_rgba(6,14,32,0.5)]">
+<a class="flex flex-col items-center gap-1 text-primary hover:scale-110 transition-transform" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-label uppercase font-bold">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-500 hover:text-primary hover:scale-110 transition-all" href="#partnerships">
+<span class="material-symbols-outlined">groups</span>
+<span class="text-[10px] font-label uppercase">Partners</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-500 hover:text-primary hover:scale-110 transition-all" href="#skills">
+<span class="material-symbols-outlined">psychology</span>
+<span class="text-[10px] font-label uppercase">AI Skills</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-500 hover:text-primary hover:scale-110 transition-all" href="#contact">
+<span class="material-symbols-outlined">mail</span>
+<span class="text-[10px] font-label uppercase">Contact</span>
+</a>
+</nav>
+</body></html>
